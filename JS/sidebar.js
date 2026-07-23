@@ -25,9 +25,9 @@ const sidebar= `
                     <li class="sub-rama">
                         <ul>
                         
-                            <li><a href="Libros/Educacion_Para_La_Paz.html">Educación para la Paz Tomo (I)</a></li>
-                            <li><a href="Libros/Nomenclatura_de_guerra.html">Nomenclatura de Guerra Tomo (II)</a></li>
-                            <li><a href="Libros/Conflictos_Guerras_Del_Siglo_XX.html">Conflictos y Guerras del Siglo XX Tomo(III)</a></li>
+                            <li><a href="../Libros/Educacion_Para_La_Paz.html">Educación para la Paz Tomo (I)</a></li>
+                            <li><a href="../Libros/Nomenclatura_de_guerra.html">Nomenclatura de Guerra Tomo (II)</a></li>
+                            <li><a href="../Libros/Conflictos_Guerras_Del_Siglo_XX.html">Conflictos y Guerras del Siglo XX Tomo(III)</a></li>
                         </ul>
                     </li>
                     <!--F-->
