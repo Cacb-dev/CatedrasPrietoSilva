@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Seguridad, Defensa y Desarrollo</title>
+    <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="../CSS/bookstyles.css">
+    
+</head>
+<body>
+    
+    <header class = "barra_superior" id="b_sup"> 
+
+       <script src="../JS/header.js"></script>
+        <script>document.getElementById('b_sup').innerHTML = barra_sup;</script>
+        
+    </header>
+
+    <nav class ="menu-container" id="menCont"> <!--CONTENEDOR DEL MENU-->
+
+       <script src="../JS/menucontrol.js"></script>
+       <script>document.getElementById('menCont').innerHTML = menuC;</script>
+
+
+    </nav>
+
+    <div class="Contenedor_PP"> 
+
+        <!--Barra lateral [SIDEBAR]-->
+        <aside id="BarraLaterar" class = "BarraLaterar"></aside>
+        <script src="../JS/sidebar.js"></script>
+        <script>
+        
+            document.getElementById('BarraLaterar').innerHTML = sidebar;
+
+        </script>
+        <!--Contenido Principal-->
+
+        <main class = "contenido">
+
+            <nav class="cont_Primario">
+
+
+                <div class="contenedor_Sec ">
+
+                    <h3>
+                        Seguridad, Defensa y Desarrollo
+                    </h3>
+
+                   
+
+                </div>
+
+                <div class="imgs">
+                    <div class="galeria">
+                        <input type="checkbox" id="portada" class="zoom-check">
+                        
+                        <label for="portada" class="zoom-disparador">
+                            <img src="../IMAGENES/DefSegDes.jpg" alt="Miniatura" class="img-miniatura">
+                        </label>
+
+                        <div class="overlay">
+                            <label for="portada" class="btn-cerrar">&times;</label>
+                            <img src="../IMAGENES/DefSegDes.jpg" alt="Imagen Grande" class="img-grande">
+                        </div>
+
+
+                    </div>
+
+                <!--Añadir contraportada-->
+                </div>
+
+
+                
+                <nav class="descripcion">
+                    <h2 class="titulos">Acerca del Libro</h2>
+                    <table class="datLibro">
+                        
+                            <tbody>
+                                <tr>
+                                    <td class="criterio">Autor </td>
+                                    <td>Enrique Prieto Silva</td>
+                                </tr>
+
+                                <tr>
+                                    <!-- <td class="criterio">Fecha de Publicación</td>
+                                    <td>//</td> -->
+                                </tr>
+                                <tr>
+                                    <td class="criterio">Editorial</td>
+                                    <td>PRM Editores Asociados</td>
+                                </tr>
+                                <tr>
+                                    <!-- <td class="criterio">Edición</td>
+                                    <td>1era</td> -->
+                                </tr>
+                                <tr>
+                                    <td class="criterio">Idioma</td>
+                                    <td>Español</td>
+                                </tr>
+                                <tr>
+                                    <!-- <td class="criterio">Descripcion</td>
+                                    <td>
+                                        s/d                   </td> -->
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    
+
+                </nav>
+
+                
+
+                <div class="ob">
+                    <input type="checkbox" id="obtener" class="zoom-check">
+                    
+                    <label for="obtener" class="agotado">
+                    
+                        <img src="../IMAGENES/shopping-cart.png">
+                        <span class="resaltar">&nbsp;&nbsp;&nbsp;OBTENER&nbsp;&nbsp;&nbsp;</span>
+                    </label>
+
+                   
+                    
+                     
+                </div>
+
+            </nav>
+
+
+        </main>
+    </div>
+    
+        <a href="#" class="btn-subir">↑</a>
+
+    <!--PIE DE PAGINA-->
+        <footer class="PieDePagina" id="ft"></footer>
+        <script src="../JS/footer.js"></script>
+        <script>
+            document.getElementById('ft').innerHTML = foot;
+        </script>
+    <!---->   
+
+</body>
+</html>

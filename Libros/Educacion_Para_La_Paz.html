@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Educacion para la Paz</title>
+    <link href="../CSS/main.css" rel="stylesheet">
+    <link href="../CSS/bookstyles.css" rel="stylesheet">
+</head>
+<body>
+    
+    <header class = "barra_superior" id="b_sup"> 
+
+       <script src="../JS/header.js"></script>
+        <script>document.getElementById('b_sup').innerHTML = barra_sup;</script>
+        
+    </header>
+
+    <nav class ="menu-container" id="menCont"> <!--CONTENEDOR DEL MENU-->
+
+       <script src="../JS/menucontrol.js"></script>
+       <script>document.getElementById('menCont').innerHTML = menuC;</script>
+
+
+    </nav>
+
+    <div class="Contenedor_PP"> 
+
+         <!--Barra lateral [SIDEBAR]-->
+        <aside id="BarraLaterar" class = "BarraLaterar"></aside>
+        <script src="../JS/sidebar.js"></script>
+        <script>
+        
+            document.getElementById('BarraLaterar').innerHTML = sidebar;
+
+        </script>
+        <!--Contenido Principal-->
+
+        <main class = "contenido">
+
+            <nav class="cont_Primario">
+
+
+                <div class="contenedor_Sec ">
+
+                    <h3>
+                        TOMO I: Educacion Para La Paz
+                    </h3>
+
+                   
+
+                </div>
+
+                <div class="imgs">
+                    <div class="galeria">
+                        <input type="checkbox" id="portada" class="zoom-check">
+                        
+                        <label for="portada" class="zoom-disparador">
+                            <img src="../IMAGENES/Educacion para la Paz.jpg" alt="Miniatura" class="img-miniatura">
+                        </label>
+
+                        <div class="overlay">
+                            <label for="portada" class="btn-cerrar">&times;</label>
+                            <img src="../IMAGENES/Educacion para la Paz.jpg" alt="Imagen Grande" class="img-grande">
+                        </div>
+
+
+                    </div>
+
+                    <div class="galeria">
+                        <input type="checkbox" id="contra-portada" class="zoom-check">
+                        
+                        <label for="contra-portada" class="zoom-disparador">
+                            <img src="../IMAGENES/Educacion para la Paz Contra Portada.jpg" alt="Miniatura" class="img-miniatura">
+                        </label>
+
+                        <div class="overlay">
+                            <label for="contra-portada" class="btn-cerrar">&times;</label>
+                            <img src="../IMAGENES/Educacion para la Paz Contra Portada.jpg" alt="Imagen Grande" class="img-grande">
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                
+                <nav class="descripcion">
+                    <h2 class="titulos">Acerca del Libro</h2>
+                    <table class="datLibro">
+                        
+                            <tbody>
+                                <tr>
+                                    <td class="criterio">Autor (es)</td>
+                                    <td>Enrique Prieto Silva</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="criterio">Fecha de Publicación</td>
+                                    <td>25 Marzo 2019</td>
+                                </tr>
+                                <tr>
+                                    <td class="criterio">Editorial</td>
+                                    <td>Independently published</td>
+                                </tr>
+                                <tr>
+                                    <td class="criterio">Tomo</td>
+                                    <td>La Guerra por la Paz (Tomo I)</td>
+                                </tr>
+                                <tr>
+                                    <td class="criterio">Idioma</td>
+                                    <td>Español</td>
+                                </tr>
+                                <tr>
+                                    <td class="criterio">Descripcion</td>
+                                    <td>
+                                        El objetivo fundamental de este trabajo editorial es hacer una propuesta novedosa, actual y viable, 
+                                        para la conducción de una educación especial en todos los Estados integrantes de la Organización de los Estados Americanos (OEA), 
+                                        desarrollando un Programa de Educación para la Paz en el Hemisferio, acorde con el diseño elaborado por la Asamblea General de la Organización, 
+                                        en el reconocimiento de que la educación es uno de los pilares para promover la paz, prevenir los conflictos y reducir la violencia. Es el resultado de nuestra investigación en el 
+                                        desarrollo de la hipótesis que nos planteamos en la tesis presentada para optar al doctorado en “Ciencias de la Educación”, donde surgió como conclusión la necesidad de promover e implementar una educación especial para la guerra y para la paz en Venezuela; pero 
+                                        a la pregunta ¿dónde se encuentra el fundamento jurídico y constitucional que sirve de marco fundamental?, expusimos como acto conclusivo lo que habíamos pensado hipotéticamente, que la educación existente es irreal y no cumple con la necesidad social que la origina, 
+                                        que nos permitió enlazar criterios y elementos programáticos, con el planteamiento de la Organización de los Estados Americanos, de cuya propuesta extraemos: “Una buena educación es un componente vital necesario para fomentar el desarrollo económico, la equidad social y la seguridad en cualquier sociedad democrática. 
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    
+
+                </nav>
+
+                <div class="ob">
+                    <input type="checkbox" id="obtener" class="zoom-check">
+                    
+                    <label for="obtener" class="boton">
+                    
+                        <img src="../IMAGENES/shopping-cart.png">
+                        <span class="resaltar">&nbsp;&nbsp;&nbsp;OBTENER&nbsp;&nbsp;&nbsp;</span>
+                    </label>
+
+                   
+                    <div class="overlay">
+                        <label for="obtener" class="btn-cerrar">&times;</label>
+                        <!---->
+                        <div class="informe">
+                            <div class="cabezera">
+                                 <label for="obtener" class="btn-cerrar">&times;</label>
+                                Educación Para La Paz
+                            </div>
+                            
+                            <div class="ped">
+                                <img src="../IMAGENES/Educacion para la Paz.jpg">
+
+                               
+                                <nav class="detalles">
+
+                                    <h3>Educación Para La Paz</h3>
+        <!--Aqui puede colocar el estado del articulo como: Disponible, Agotado, Solo Amazon-->
+                                    <h4>ESTADO: <span class="importante">Disponible</span></h4>
+
+                                    <h4>PRECIO: <span class="importante">X.xx $</span> <span class="peq">(no incluye el envio)</span></h4>
+
+                                    <p><span class="resaltar">IMPORTANTE:</span> Si usted se encuentra en <span class="resaltar">CARACAS-VENEZUELA </span>
+                                        puede solicitar el libro a traves de nuestro correo <span class="correo">catedrasprietosilva@gmail.com</span>
+                                    </p>
+
+                                    <p class="">Tambien puede adquirirlo a traves de nuestro Amazon</p>
+                                
+                                    <nav class="cont-button">
+
+                                        <a href="mailto:catedrasprietosilva@gmail.com?subject=Compra&body=Buenos%20dias,%20me%20gustaria%20comprar%20[Cantidad]%20el%20libro%20[Nombre%20del%20libro]%0D%0ASoy%20de%20[Direccion]" 
+                                        class="mail" target="_blank">
+
+                                            <img src="../IMAGENES/email-logo.png" alt="logo">
+                                            
+
+                                        </a>
+
+                                        <!--Acomdar el link de amazon-->
+                                        <a href="#"
+                                        class="amazonbutton" target="_blank">
+                                            <img src="../IMAGENES/AmazonButton.png" alt="botonAmazon">
+                                        </a>
+
+
+
+                                   </nav>
+                                
+                                
+                                </nav>
+
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                     
+                </div>
+
+            </nav>
+
+
+        </main>
+    </div>
+        <a href="#" class="btn-subir">↑</a>
+
+    <!--PIE DE PAGINA-->
+        <footer class="PieDePagina" id="ft"></footer>
+        <script src="../JS/footer.js"></script>
+        <script>
+            document.getElementById('ft').innerHTML = foot;
+        </script>
+    <!---->   
+</body>
+</html>
